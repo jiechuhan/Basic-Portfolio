@@ -65,7 +65,7 @@ body {
     background-color: #ffffff;
 }
 
-.aboutme h1 {
+h1 {
     color: teal;
     border-bottom: 3px solid #dddddd;
     padding-bottom: 20px;
@@ -74,14 +74,23 @@ body {
     margin-bottom: 30px;
 }
 
-.aboutme img {
-    width: 20%;
+.small {
     float: left;
-    margin-right: 20px;
+    margin-right: 5%;
+    position: relative;
+    margin-bottom: 50px;
 }
 
-.aboutme p {
-    font-size: 1em;
-    line-height: 1.5;
-    font-family: 'Arial', sans-serif;
+.gallery img {
+    width: 200px;
+}
+
+.small p {
+    background-color: teal;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    top: 175px;
+    width: 200px;
 }

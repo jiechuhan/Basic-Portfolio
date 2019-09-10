@@ -74,14 +74,29 @@ body {
     margin-bottom: 30px;
 }
 
-.aboutme img {
-    width: 20%;
-    float: left;
-    margin-right: 20px;
+.aboutme h4 {
+    font-family: 'Arial', sans-serif;
+    font-weight: lighter;
 }
 
 .aboutme p {
     font-size: 1em;
     line-height: 1.5;
     font-family: 'Arial', sans-serif;
+    border: 1px solid #dddddd;
+    padding: 5px;
+}
+
+.message {
+    min-height: 200px;
+    width: 900px;
+}
+
+.submit {
+    margin-top: 20px;
+    background-color: teal;
+    color: #ffffff;
+    padding: 5px;
+    width: 60px;
+    cursor: pointer;
 }
