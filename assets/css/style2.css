@@ -22,7 +22,7 @@ body {
 .header {
     margin: 0 auto;
     width: 960px;
-    font-family: 'Georgia', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     overflow: hidden;
     position: sticky;
     top: 0;
@@ -94,8 +94,9 @@ h1 {
     border-bottom: 3px solid #dddddd;
     padding-bottom: 20px;
     margin-top: 0px;
-    font-family: 'Georgia', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 30px;
+    font-size: 2em;
 }
 
 .small {

@@ -36,6 +36,7 @@ body {
     padding: 30px;
     font-size: 2em;
     margin-right: 476px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .button {
@@ -94,13 +95,16 @@ a:hover {
     border-bottom: 3px solid #dddddd;
     padding-bottom: 20px;
     margin-top: 0px;
-    font-family: 'Georgia', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 30px;
+    font-size: 2em;
 }
 
 .aboutme h4 {
     font-family: 'Arial', sans-serif;
     font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .aboutme p {
