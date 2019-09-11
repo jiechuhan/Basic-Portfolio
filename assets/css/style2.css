@@ -99,25 +99,30 @@ h1 {
     font-size: 2em;
 }
 
-.small {
+.small1, .small2 {
     float: left;
     margin-right: 5%;
     position: relative;
     margin-bottom: 50px;
+    width: 35%;
 }
 
-.gallery img {
-    width: 200px;
+.small1 img, .small2 img {
+    width: 250px;
 }
 
-.small p {
+.small1 p, .small2 p {
     background-color: teal;
     color: #ffffff;
     text-align: center;
     padding: 15px;
     position: absolute;
-    top: 175px;
-    width: 200px;
+    top: 270px;
+    width: 250px;
+}
+
+.small2 p {
+    top: 205px;
 }
 
 footer {
@@ -129,4 +134,5 @@ footer {
     height: 40px;
     position: sticky;
     bottom: 0px;
+    width: 100%;
 }
