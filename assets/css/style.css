@@ -4,6 +4,8 @@
 
 body {
     margin: 0px;
+    background-image: url("../images/so-white.png");
+    /* position: relative; */
 }
 
 .body {
@@ -11,9 +13,15 @@ body {
     margin: 0 auto;
 }
 
-.header {
+.center {
     border-bottom: 2px solid #cccccc;
     margin-bottom: 40px;
+    background-color: #ffffff;
+}
+
+.header {
+    margin: 0 auto;
+    width: 960px;
     font-family: 'Georgia', serif;
     overflow: hidden;
     position: sticky;
@@ -38,11 +46,28 @@ body {
     font-size: 1.1em;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: teal;
+}
+
+a:visited {
+    color: teal;
+}
+
+a:hover {
+    color: #777777;
+}
+
 .about {
     flex: 1;
     margin: 10px;
     padding-right: 15px;
     border-right: 1px solid #dddddd;
+    text-decoration: none;
 }
 
 .portfolio {
@@ -50,11 +75,13 @@ body {
     margin: 10px;
     padding-right: 15px;
     border-right: 1px solid #dddddd;
+    text-decoration: none;
 }
 
 .contact {
     flex: 1;
     margin: 10px;
+    text-decoration: none;
 }
 
 .aboutme {
@@ -84,4 +111,16 @@ body {
     font-size: 1em;
     line-height: 1.5;
     font-family: 'Arial', sans-serif;
+}
+
+footer {
+    border-top: 4px solid teal;
+    margin-top: 40px;
+    background-color: #666666;
+    text-align: center;
+    padding: 8px;
+    height: 40px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }

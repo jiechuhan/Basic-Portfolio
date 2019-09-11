@@ -4,6 +4,8 @@
 
 body {
     margin: 0px;
+    background-image: url("../images/so-white.png");
+    position: relative;
 }
 
 .body {
@@ -11,9 +13,15 @@ body {
     margin: 0 auto;
 }
 
-.header {
+.center {
     border-bottom: 2px solid #cccccc;
     margin-bottom: 40px;
+    background-color: #ffffff;
+}
+
+.header {
+    margin: 0 auto;
+    width: 960px;
     font-family: 'Georgia', serif;
     overflow: hidden;
     position: sticky;
@@ -36,6 +44,22 @@ body {
     font-family: 'Arial', sans-serif;
     color: #777777;
     font-size: 1.1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: teal;
+}
+
+a:visited {
+    color: teal;
+}
+
+a:hover {
+    color: #777777;
 }
 
 .about {
@@ -99,4 +123,16 @@ body {
     padding: 5px;
     width: 60px;
     cursor: pointer;
+}
+
+footer {
+    border-top: 4px solid teal;
+    margin-top: 40px;
+    background-color: #666666;
+    text-align: center;
+    padding: 8px;
+    height: 40px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
